@@ -1,0 +1,3 @@
+﻿  TempFuncSpecialization.cpp
+C:\Users\Berke Can GÖKTAŞ\source\repos\TempFuncSpecialization\TempFuncSpecialization\TempFuncSpecialization.cpp(31,18): warning C4305: '=': truncation from 'double' to 'float'
+  TempFuncSpecialization.vcxproj -> C:\Users\Berke Can GÖKTAŞ\source\repos\TempFuncSpecialization\Debug\TempFuncSpecialization.exe

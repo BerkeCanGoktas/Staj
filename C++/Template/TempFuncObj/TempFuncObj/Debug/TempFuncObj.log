@@ -1,0 +1,4 @@
+﻿  TempFuncObj.cpp
+C:\Users\Berke Can GÖKTAŞ\source\repos\TempFuncObj\TempFuncObj\TempFuncObj.cpp(17,14): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\Berke Can GÖKTAŞ\source\repos\TempFuncObj\TempFuncObj\TempFuncObj.cpp(18,15): warning C4305: '=': truncation from 'double' to 'float'
+  TempFuncObj.vcxproj -> C:\Users\Berke Can GÖKTAŞ\source\repos\TempFuncObj\Debug\TempFuncObj.exe

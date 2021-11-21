@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlackJack", "BlackJack\BlackJack.vcxproj", "{F7621595-A258-415F-BB41-D3A6A51E432C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7621595-A258-415F-BB41-D3A6A51E432C}.Debug|x64.ActiveCfg = Debug|x64
+		{F7621595-A258-415F-BB41-D3A6A51E432C}.Debug|x64.Build.0 = Debug|x64
+		{F7621595-A258-415F-BB41-D3A6A51E432C}.Debug|x86.ActiveCfg = Debug|Win32
+		{F7621595-A258-415F-BB41-D3A6A51E432C}.Debug|x86.Build.0 = Debug|Win32
+		{F7621595-A258-415F-BB41-D3A6A51E432C}.Release|x64.ActiveCfg = Release|x64
+		{F7621595-A258-415F-BB41-D3A6A51E432C}.Release|x64.Build.0 = Release|x64
+		{F7621595-A258-415F-BB41-D3A6A51E432C}.Release|x86.ActiveCfg = Release|Win32
+		{F7621595-A258-415F-BB41-D3A6A51E432C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {943BBA2C-11C4-4CDD-A866-936A4E42F7E7}
+	EndGlobalSection
+EndGlobal

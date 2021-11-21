@@ -1,0 +1,15 @@
+﻿  Blackjack2.cpp
+C:\Users\Berke Can GÖKTAŞ\source\repos\Blackjack2\Blackjack2\Islem.h(9,1): error C2504: 'Kasa': taban sınıf tanımsız
+C:\Users\Berke Can GÖKTAŞ\source\repos\Blackjack2\Blackjack2\Islem.h(11,16): error C2061: sözdizimi hatası: tanımlayıcı 'Deck'
+C:\Users\Berke Can GÖKTAŞ\source\repos\Blackjack2\Blackjack2\Kasa.h(7,26): error C2504: 'Deck': taban sınıf tanımsız
+C:\Users\Berke Can GÖKTAŞ\source\repos\Blackjack2\Blackjack2\Blackjack2.cpp(28,26): error C2660: 'İslem::oyunSonu': işlev 1 bağımsız değişken almıyor
+C:\Users\Berke Can GÖKTAŞ\source\repos\Blackjack2\Blackjack2\Islem.h(11,7): message : 'İslem::oyunSonu' bildirimine bakın
+  Deck.cpp
+C:\Users\Berke Can GÖKTAŞ\source\repos\Blackjack2\Blackjack2\Islem.h(9,1): error C2504: 'Kasa': taban sınıf tanımsız
+C:\Users\Berke Can GÖKTAŞ\source\repos\Blackjack2\Blackjack2\Islem.h(11,16): error C2061: sözdizimi hatası: tanımlayıcı 'Deck'
+C:\Users\Berke Can GÖKTAŞ\source\repos\Blackjack2\Blackjack2\Kasa.h(7,26): error C2504: 'Deck': taban sınıf tanımsız
+  Kasa.cpp
+C:\Users\Berke Can GÖKTAŞ\source\repos\Blackjack2\Blackjack2\Islem.h(9,1): error C2504: 'Kasa': taban sınıf tanımsız
+C:\Users\Berke Can GÖKTAŞ\source\repos\Blackjack2\Blackjack2\Islem.h(11,16): error C2061: sözdizimi hatası: tanımlayıcı 'Deck'
+  Islem.cpp
+  Kod Üretiliyor...

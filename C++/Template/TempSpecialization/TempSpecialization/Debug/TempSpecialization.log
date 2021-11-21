@@ -1,0 +1,7 @@
+﻿  TempSpecialization.cpp
+C:\Users\Berke Can GÖKTAŞ\source\repos\TempSpecialization\TempSpecialization\TempSpecialization.cpp(39,31): warning C4305: 'bağımsız değişken': 'double' iken 'T' olarak kesildi
+          with
+          [
+              T=float
+          ]
+  TempSpecialization.vcxproj -> C:\Users\Berke Can GÖKTAŞ\source\repos\TempSpecialization\Debug\TempSpecialization.exe

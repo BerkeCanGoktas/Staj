@@ -1,0 +1,17 @@
+﻿  TemplateClass.cpp
+C:\Users\Berke Can GÖKTAŞ\source\repos\TemplateClass\TemplateClass\TemplateClass.cpp(11,35): warning C4305: 'bağımsız değişken': 'double' iken 'U' olarak kesildi
+          with
+          [
+              U=float
+          ]
+C:\Users\Berke Can GÖKTAŞ\source\repos\TemplateClass\TemplateClass\TemplateClass.cpp(13,41): warning C4305: 'bağımsız değişken': 'double' iken 'U' olarak kesildi
+          with
+          [
+              U=float
+          ]
+C:\Users\Berke Can GÖKTAŞ\source\repos\TemplateClass\TemplateClass\TemplateClass.cpp(13,41): warning C4305: 'bağımsız değişken': 'double' iken 'T' olarak kesildi
+          with
+          [
+              T=float
+          ]
+  TemplateClass.vcxproj -> C:\Users\Berke Can GÖKTAŞ\source\repos\TemplateClass\Debug\TemplateClass.exe

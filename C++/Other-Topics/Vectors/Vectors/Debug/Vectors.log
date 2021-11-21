@@ -1,0 +1,4 @@
+﻿  Vectors.cpp
+C:\Users\Berke Can GÖKTAŞ\source\repos\Vectors\Vectors\Vectors.cpp(60,20): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+C:\Users\Berke Can GÖKTAŞ\source\repos\Vectors\Vectors\Vectors.cpp(63,20): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+  Vectors.vcxproj -> C:\Users\Berke Can GÖKTAŞ\source\repos\Vectors\Debug\Vectors.exe

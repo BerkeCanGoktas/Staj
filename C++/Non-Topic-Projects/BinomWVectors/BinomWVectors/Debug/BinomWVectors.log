@@ -1,0 +1,4 @@
+﻿  BinomWVectors.cpp
+C:\Users\Berke Can GÖKTAŞ\source\repos\BinomWVectors\BinomWVectors\BinomWVectors.cpp(26,23): warning C4018: '<=': imzalı/imzasız uyuşmazlığı
+C:\Users\Berke Can GÖKTAŞ\source\repos\BinomWVectors\BinomWVectors\BinomWVectors.cpp(36,23): warning C4018: '<=': imzalı/imzasız uyuşmazlığı
+  BinomWVectors.vcxproj -> C:\Users\Berke Can GÖKTAŞ\source\repos\BinomWVectors\Debug\BinomWVectors.exe

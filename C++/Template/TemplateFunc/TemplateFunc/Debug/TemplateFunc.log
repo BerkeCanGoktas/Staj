@@ -1,0 +1,14 @@
+﻿  TemplateFunc.cpp
+C:\Users\Berke Can GÖKTAŞ\source\repos\TemplateFunc\TemplateFunc\TemplateFunc.cpp(25,19): warning C4305: 'başlatılıyor': 'double' iken 'float' olarak kesildi
+C:\Users\Berke Can GÖKTAŞ\source\repos\TemplateFunc\TemplateFunc\TemplateFunc.cpp(26,19): warning C4305: 'başlatılıyor': 'double' iken 'float' olarak kesildi
+C:\Users\Berke Can GÖKTAŞ\source\repos\TemplateFunc\TemplateFunc\TemplateFunc.cpp(27,17): warning C4244: 'başlatılıyor': 'U' - 'int' dönüşümü; veri kaybı olabilir
+          with
+          [
+              U=float
+          ]
+C:\Users\Berke Can GÖKTAŞ\source\repos\TemplateFunc\TemplateFunc\TemplateFunc.cpp(33,39): warning C4244: 'bağımsız değişken': 'int' - 'T' dönüşümü; veri kaybı olabilir
+          with
+          [
+              T=float
+          ]
+  TemplateFunc.vcxproj -> C:\Users\Berke Can GÖKTAŞ\source\repos\TemplateFunc\Debug\TemplateFunc.exe

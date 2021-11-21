@@ -1,0 +1,4 @@
+﻿  Map2.cpp
+C:\Users\Berke Can GÖKTAŞ\source\repos\Map2\Map2\Map2.cpp(19,23): warning C4018: '<=': imzalı/imzasız uyuşmazlığı
+C:\Users\Berke Can GÖKTAŞ\source\repos\Map2\Map2\Map2.cpp(30,23): warning C4018: '<=': imzalı/imzasız uyuşmazlığı
+  Map2.vcxproj -> C:\Users\Berke Can GÖKTAŞ\source\repos\Map2\Debug\Map2.exe

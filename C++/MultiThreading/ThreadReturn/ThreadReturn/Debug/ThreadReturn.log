@@ -1,0 +1,3 @@
+﻿  ThreadReturn.cpp
+C:\Users\Berke Can GÖKTAŞ\source\repos\ThreadReturn\ThreadReturn\ThreadReturn.cpp(14): warning C4172: yerel değişkenin veya geçici : arr öğesinin adresi döndürülüyor
+  ThreadReturn.vcxproj -> C:\Users\Berke Can GÖKTAŞ\source\repos\ThreadReturn\Debug\ThreadReturn.exe

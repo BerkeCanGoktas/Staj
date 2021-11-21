@@ -1,0 +1,5 @@
+﻿  Lambda.cpp
+C:\Users\Berke Can GÖKTAŞ\source\repos\Lambda\Lambda\Lambda.cpp(31,20): error C3482: 'this' yalnızca statik olmayan bir üye işlevin içinde lambda yakalaması olarak kullanılabilir
+C:\Users\Berke Can GÖKTAŞ\source\repos\Lambda\Lambda\Lambda.cpp(32,1): error C2355: 'this': yalnızca statik olmayan üye işlevlerin veya statik olmayan veri üyesi başlatıcılarının içinde başvurulabilir
+C:\Users\Berke Can GÖKTAŞ\source\repos\Lambda\Lambda\Lambda.cpp(35,1): error C3493: herhangi bir varsayılan yakalama modu belirtilmediğinden 'f1' örtük olarak yakalanamıyor
+C:\Users\Berke Can GÖKTAŞ\source\repos\Lambda\Lambda\Lambda.cpp(16): fatal error C1075: '{': eşleşen hiçbir belirteç bulunamadı

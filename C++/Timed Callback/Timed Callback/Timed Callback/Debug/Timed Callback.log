@@ -1,0 +1,36 @@
+﻿  Timed Callback.cpp
+C:\Users\Berke Can GÖKTAŞ\source\repos\Timed Callback\Timed Callback\Timed Callback.cpp(16,24): warning C4244: 'initializing': conversion from 'time_t' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1595,67): warning C4244: 'argument': conversion from '_Ty1' to 'int', possible loss of data
+          with
+          [
+              _Ty1=__int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\future(1456): message : see reference to function template instantiation 'void std::invoke<void(__cdecl *)(int,void (__cdecl *)(void)),__int64,void(__cdecl *)(void)>(_Callable &&,_Ty1 &&,void (__cdecl *&&)(void)) noexcept(false)' being compiled
+          with
+          [
+              _Callable=void (__cdecl *)(int,void (__cdecl *)(void)),
+              _Ty1=__int64
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\future(1463): message : see reference to function template instantiation 'void std::_Invoke_stored_explicit<void(__cdecl *)(int,void (__cdecl *)(void)),__int64,void(__cdecl *)(void),0,1,2>(std::tuple<void (__cdecl *)(int,void (__cdecl *)(void)),__int64,void (__cdecl *)(void)> &&,std::integer_sequence<size_t,0,1,2>)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\future(1490): message : see reference to function template instantiation 'void std::_Invoke_stored<void(__cdecl *)(int,void (__cdecl *)(void)),__int64,void(__cdecl *)(void)>(std::tuple<void (__cdecl *)(int,void (__cdecl *)(void)),__int64,void (__cdecl *)(void)> &&)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\future(1490): message : while compiling class template member function 'void std::_Fake_no_copy_callable_adapter<_Fty,time_t &,void (__cdecl &)(void)>::operator ()(void)'
+          with
+          [
+              _Fty=void (__cdecl &)(int,void (__cdecl *)(void))
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\type_traits(1585): message : see reference to function template instantiation 'void std::_Fake_no_copy_callable_adapter<_Fty,time_t &,void (__cdecl &)(void)>::operator ()(void)' being compiled
+          with
+          [
+              _Fty=void (__cdecl &)(int,void (__cdecl *)(void))
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\future(1512): message : see reference to class template instantiation 'std::_Fake_no_copy_callable_adapter<_Fty,time_t &,void (__cdecl &)(void)>' being compiled
+          with
+          [
+              _Fty=void (__cdecl &)(int,void (__cdecl *)(void))
+          ]
+C:\Users\Berke Can GÖKTAŞ\source\repos\Timed Callback\Timed Callback\Timed Callback.cpp(63): message : see reference to function template instantiation 'std::future<void> std::async<void(__cdecl &)(int,void (__cdecl *)(void)),time_t&,void(__cdecl &)(void)>(std::launch,_Fty,time_t &,void (__cdecl &)(void))' being compiled
+          with
+          [
+              _Fty=void (__cdecl &)(int,void (__cdecl *)(void))
+          ]
+  Timed Callback.vcxproj -> C:\Users\Berke Can GÖKTAŞ\source\repos\Timed Callback\Debug\Timed Callback.exe

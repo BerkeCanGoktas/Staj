@@ -1,0 +1,24 @@
+﻿  Context.cpp
+  State.cpp
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(9,10): error C2143: syntax error: missing ';' before '*'
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(9,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(9,18): error C2238: unexpected token(s) preceding ';'
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(12,13): error C2061: syntax error: identifier 'State'
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(18,23): error C2061: syntax error: identifier 'State'
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(12,29): error C2614: 'Context': illegal member initialization: 'state_' is not a base or member
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(13,28): error C2065: 'state': undeclared identifier
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(19,54): error C2065: 'state': undeclared identifier
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(20,19): error C2039: 'state_': is not a member of 'Context'
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(7): message : see declaration of 'Context'
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(21,26): error C2039: 'state_': is not a member of 'Context'
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(7): message : see declaration of 'Context'
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(22,15): error C2039: 'state_': is not a member of 'Context'
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(7): message : see declaration of 'Context'
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(22,24): error C2065: 'state': undeclared identifier
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(23,15): error C2039: 'state_': is not a member of 'Context'
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(7): message : see declaration of 'Context'
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(26,15): error C2039: 'state_': is not a member of 'Context'
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(7): message : see declaration of 'Context'
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(29,15): error C2039: 'state_': is not a member of 'Context'
+C:\Users\Berke Can GÖKTAŞ\source\repos\State2\State2\Context.h(7): message : see declaration of 'Context'
+  Generating Code...
