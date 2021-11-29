@@ -1,0 +1,3 @@
+// Declare the two variables here
+String? name = 'Jane';
+String? address;
