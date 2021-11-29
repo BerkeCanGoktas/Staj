@@ -1,0 +1,17 @@
+bool anyUserUnder18(Iterable<User> users) {
+  return users.any((user) => user.age <= 17);
+}
+
+bool everyUserOver13(Iterable<User> users) {
+  return users.every((user) => user.age >= 14);
+}
+
+class User {
+  String name;
+  int age;
+
+  User(
+    this.name,
+    this.age,
+  );
+}
