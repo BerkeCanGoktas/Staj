@@ -1,0 +1,9 @@
+// Implement changeUsername here
+Future<String> changeUsername() async {
+  try{
+   var newName = await fetchNewUsername();
+    return newName;
+  }catch(err){
+    return err.toString();
+  }
+}
