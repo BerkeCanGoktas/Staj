@@ -1,0 +1,92 @@
+Dart:
+
+// Copyright (c) 2012, the Dart project authors.
+// Please see the AUTHORS file // for details.
+// All rights reserved. Use of this source code
+// is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+import 'dart:html';
+
+InputElement toDoInput;
+UListElement toDoList;
+ButtonElement deleteAll;
+
+void main() {
+  toDoInput = querySelector('#to-do-input');
+  toDoList = querySelector('#to-do-list');
+  toDoInput.onChange.listen(addToDoItem);
+  deleteAll = querySelector('#delete-all');
+  deleteAll.onClick.listen((e) => toDoList.children.clear());
+}
+
+void addToDoItem(Event e) {
+  var newToDo = new LIElement();
+  newToDo.text = toDoInput.value;
+  newToDo.onClick.listen((e) => newToDo.remove());
+  toDoInput.value = '';
+  toDoList.children.add(newToDo);
+}
+
+HTML:
+
+<h2>Todo</h2>
+        
+    <div>
+      <input id="to-do-input" type="text" placeholder="What needs to be done?">
+    </div>
+       
+    <div>
+      <ul id="to-do-list">
+      </ul>
+    </div>
+    
+    <button id="delete-all" type="button"
+            style="float:right"> Delete All </button>
+
+CSS:
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: WhiteSmoke;
+  margin: 15px;
+  color: black;
+}
+
+#to-do-input {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 5px 0px 5px 5px;
+  width: 100%;
+  border: 1px solid Silver;
+  background-color: White;
+}
+
+#to-do-list {
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+}
+
+#to-do-list li {
+  padding: 5px 0px 5px 5px;
+  border-bottom: 1px dotted Silver;
+}
+
+#to-do-list li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+#delete-all {
+  margin-top: 8px;
+  background-color: #F8F8F8;
+  border: 1px dotted #ccc;
+  border-radius: 1em;
+  float: right;
+}
+
+#delete-all:hover {
+  background-color: #ddd;
+}

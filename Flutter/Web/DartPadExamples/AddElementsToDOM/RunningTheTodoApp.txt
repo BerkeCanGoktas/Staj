@@ -1,0 +1,69 @@
+Dart:
+
+// Copyright (c) 2012, the Dart project authors.
+// Please see the AUTHORS file // for details.
+// All rights reserved. Use of this source code
+// is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+import 'dart:html';
+
+InputElement toDoInput;
+UListElement toDoList;
+ButtonElement deleteAll;
+
+void main() {
+  toDoInput = querySelector('#to-do-input');
+  toDoList = querySelector('#to-do-list');
+  toDoInput.onChange.listen(addToDoItem);
+}
+
+void addToDoItem(Event e) {
+  var newToDo = new LIElement();
+  newToDo.text = toDoInput.value;
+  toDoInput.value = '';
+  toDoList.children.add(newToDo);
+}
+
+HTML:
+
+<h2>Procrastinator's Todo</h2>
+        
+    <div>
+      <input id="to-do-input" type="text" placeholder="What needs to be done?">
+    </div>
+       
+    <div>
+      <ul id="to-do-list">
+      </ul>
+    </div>
+
+CSS:
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: WhiteSmoke;
+  margin: 15px;
+  color: black;
+}
+
+#to-do-input {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 5px 0px 5px 5px;
+  width: 100%;
+  border: 1px solid Silver;
+  background-color: White;
+}
+
+#to-do-list {
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+}
+
+#to-do-list li {
+  padding: 5px 0px 5px 5px;
+  border-bottom: 1px dotted Silver;
+}
