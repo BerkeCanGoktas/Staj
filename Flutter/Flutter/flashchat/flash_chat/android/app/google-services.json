@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "266545795189",
+    "project_id": "flash-chat-292f5",
+    "storage_bucket": "flash-chat-292f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266545795189:android:a40a3c4a41b4ae3757683c",
+        "android_client_info": {
+          "package_name": "com.berkecan.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266545795189-je0vsn2ucr3f76h4bkun5108j7k4u5tt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb0p-55ChguA783eYnWJ28zJWpEuFaIio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266545795189-je0vsn2ucr3f76h4bkun5108j7k4u5tt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

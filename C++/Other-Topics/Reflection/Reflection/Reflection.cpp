@@ -52,10 +52,10 @@ void displayType(T* vehicle) {
 
 int main()
 {
-    /*Vehicle arac;
-    displayType(&arac); class Vehicle
+    Vehicle arac;
+    displayType(&arac); //class Vehicle
     Car araba;
-    displayType(&araba);          class Car*/ 
+    displayType(&araba);          //class Car 
     /*Fruit meyve;
     Vehicle* arac = new Vehicle();
     displayType(arac); // class Vehicle
