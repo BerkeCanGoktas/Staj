@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792651963272",
+    "project_id": "work-management-app",
+    "storage_bucket": "work-management-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792651963272:android:c33fcd73b507e258eaf83d",
+        "android_client_info": {
+          "package_name": "com.berkecan.work_management_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792651963272-valm76lvoo6dhhiuuu4d8jcdcf0t81f2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0vMsCzxTrEhyM4iJ-5rE9QGEB86k17Wk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792651963272-valm76lvoo6dhhiuuu4d8jcdcf0t81f2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
