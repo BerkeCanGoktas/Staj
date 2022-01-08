@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "779540919894",
+    "project_id": "cbs-turkey",
+    "storage_bucket": "cbs-turkey.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779540919894:android:396b580b266eca00bfedf7",
+        "android_client_info": {
+          "package_name": "com.example.cbs_turkey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779540919894-kmg8rhpnl2idqkc4cghvmm2gh19o7ahb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDEsI1NNtRf7EcnCnUdqARkHUOxyPKHGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779540919894-kmg8rhpnl2idqkc4cghvmm2gh19o7ahb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
